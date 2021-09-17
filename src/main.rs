@@ -16,7 +16,6 @@ use chrono::{Date, Datelike, Duration, TimeZone, Utc};
 use curl::easy::Easy;
 use curl::easy::List;
 use std::collections::HashMap;
-use std::io::Write;
 use std::mem;
 
 struct DateRange(Date<Utc>, Date<Utc>);
