@@ -102,7 +102,7 @@ pub fn download_data() -> Result<String, String> {
                 date.year(),
                 date.month(),
                 date.day(),
-                i * 100
+                (i * 100) - 100
             );
 
             println!("{} : Pulling data from {}", date, url);
